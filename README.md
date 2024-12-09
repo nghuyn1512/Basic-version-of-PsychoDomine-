@@ -1,4 +1,4 @@
-<link href =": https://psychodomie.onrender.com/">Trải nghiệm PsychoDomine ở đây</link>
+<link href ="https://psychodomie.onrender.com/"></link>
 <div class='logo' align='center'> 
   <img src='/image/psychodomine-logo.png'> 
 </div>
