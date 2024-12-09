@@ -1,5 +1,5 @@
 <div class='logo' align='center'> 
-  <img src='/image/pyschodomine-logo.png'> 
+  <img src='/image/psychodomine-logo.png'> 
 </div>
 
 ### About 
