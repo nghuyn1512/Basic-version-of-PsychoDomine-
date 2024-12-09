@@ -1,11 +1,11 @@
-Trải nghiệm [https://psychodomie.onrender.com](PsychoDomine) ở đây! 
+Trải nghiệm [PsychoDomine](https://psychodomie.onrender.com/) ở đây! 
 
 <div class='logo' align='center'> 
   <img src='/image/psychodomine-logo.png'> 
 </div>
 
 ### About 
--  Dự án được xây dựng để tham gia TCO'24 
+-  Dự án được xây dựng để tham gia TCO'24,một cuộc thi thuộc khuôn khổ VSAR 2024 do TW Đoàn TNCS Hồ Chí Minh phối hợp với Bộ Khoa học & Công nghệ tổ chức.
 - Là thư viện tâm lí chủ yếu dành cho học sinh 
 -  Sử dụng Python làm phần xử lí logic(BE),còn HTML/CSS/JS cho FE.
 
