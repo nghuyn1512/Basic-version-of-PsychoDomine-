@@ -1,0 +1,16 @@
+-   Dự án thư viện tâm lí chủ yếu dành cho học sinh 
+-   Sử dụng Python làm phần xử lí logic(BE),còn HTML/CSS/JS cho FE.
+
+- Features
+
++   Thư viện
++  About team
+
+Hướng dẫn cài đặt
+1. Cài đặt các thư viện cần thiết
+mở terminal,cd vào PsychoDomine,dùng lệnh: 'pip install -r requirement.txt' 
+
+2. Chạy Backend(python)
+chạy lệnh 'python app.py' trên terminal hoặc nhấn nút run python file nếu sử dụng Visual Studio Code.
+
+3. Mở đường dẫn http://127.0.0.1:5501/templates/library.html để xem kết quả.

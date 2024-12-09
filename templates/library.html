@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library-Home</title>
+    <link rel="stylesheet" href="/css/library.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Be Vietnam Pro:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" type="image/x-icon" href="/image/psychodomine-logo.png"></link>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!--navbar-->
+
+        <header class="header">
+          <a href="/templates/library.html">
+            <img class="navbar-logo" src="/image/psychodomine-logo.png" alt="This is logo">
+          </a>
+          <nav class="navbar-info">
+              <a href="/templates/library.html">Thư viện</a>
+              <a href ='/templates/about-us.html'> Về chúng tôi</a>
+          </nav>
+          <button class="navbar-đăng-nhập">Đăng nhập</button>
+        </header>
+
+        <!--home-->
+         <section class ="home" id ="home">
+            <div class="home-text">
+              <h2 class="home-title">PsychoDomine Library</h2>
+              <p class ="home-subtitle">
+                Chào mừng bạn đến với thư viện bài viết về sức khỏe tâm thần(Mental Health).
+                <br>Đây là nơi bạn có thể tìm thấy kiến thức, thông tin và nguồn cảm hứng để chăm sóc sức khỏe tâm lý.
+                <br>Chúng tôi hy vọng sẽ hỗ trợ bạn trong hành trình xây dựng một tâm lý khỏe mạnh và vững vàng.
+              </p>
+             </div>
+        </section>
+        <!--featuredPost-->
+        <div class="featured-text"><h2>BÀI VIẾT NỔI BẬT</h2></div>
+          <section class="featured container">
+          </section>       
+        <!-- Filter -->
+        <div class="post-filter"> 
+          <span class="filter-item active-filter" data-filter='all'>All Post</span>
+          <span class="filter-item" data-filter="giai-phap">Giải pháp</span>
+          <span class="filter-item" data-filter="loi-song">Lối sống</span>
+          <span class="filter-item" data-filter="trong-tam-li">Trọng tâm lí</span>
+
+        </div>
+        <div class="search-container">
+          <input type="text" id="search-input" class="search-input" placeholder="Type here to search..." />
+          <button class="search-button">
+        </button>
+            <i class='bx bx-search'></i>
+          </button>
+        </div>
+        <!--post-->
+        <section class="post-container"></section>
+        
+        <button id="seemore" class="hidden">More Post</button> 
+    <!--footer-->
+        <footer>
+          <div class="footer-container">
+              <div class="sec aboutus">
+                  <h2>About Us</h2>
+                  <p>Chúng mình là Chill-QuocOai,cùng với PsychoDomine,rất vui được đồng hành với bạn trong hành trình bảo vệ và xây dựng tâm lí vững vàng.</p>
+                  <p>Mọi thắc mắc xin vui lòng liên hệ đến các trang mạng xã hội sau:</p>
+                  <ul class="sci">
+                      <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                      <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                      <li><a href="#"><i class="bx bxl-discord-alt"></i></a></li>
+                  </ul>
+              </div>
+              <div class="sec quicklinks">
+                  <h2>Links</h2>
+                  <ul>
+                      <li><a href="/templates/library.html">Home</a></li>
+                      <li><a href="/templates/about-us.html">Về chúng tôi</a></li>
+                  </ul>
+              </div>
+              <div class="sec contactBx">
+                  <h2>Contact</h2>
+                  <ul class="info">
+                      <li>
+                          <span><i class='bx bxs-map'></i></span>
+                          <span>Quoc Oai High School <br> Quoc Oai District <br> Hanoi,Vietnam.</span>
+                      </li>
+                      <li>
+                          <span><i class='bx bx-envelope' ></i></span>
+                          <p><a href="mailto:chillquocoai@gmail.com">chillquocoai@gmail.com</a></p>
+                      </li>
+                  </ul>
+              </div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="/js/index.js"></script>
+    </body>   
+</html>
