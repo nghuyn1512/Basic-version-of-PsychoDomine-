@@ -1,6 +1,8 @@
 <div class='logo' align='center'> 
   <img src='/image/pyschodomine-logo.png'> 
-  
+</div>
+
+### About 
 -  Dự án được xây dựng để tham gia TCO'24 
 - Là thư viện tâm lí chủ yếu dành cho học sinh 
 -  Sử dụng Python làm phần xử lí logic(BE),còn HTML/CSS/JS cho FE.
