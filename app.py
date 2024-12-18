@@ -26,6 +26,12 @@ def post_page():
 @app.route("/")
 def library():
     return render_template('library.html')
+@app.route("/info")
+def info():
+    return render_template('info.html')
+@app.route("/about-us")
+def aboutus():
+    return render_template("about-us.html")
 
 #GraphQL API url
 url = "https://ap-southeast-2.cdn.hygraph.com/content/cllgr1aps0ei201t1d0bf3py3/master"
