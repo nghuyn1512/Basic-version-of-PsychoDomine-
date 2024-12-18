@@ -2,7 +2,7 @@ const postcontainer= document.querySelector('.post-container');
 const featuredcontainer =document.querySelector('.featured');
 async function loadpost(){
     try{
-        const reponse = await fetch('http://127.0.0.1:5000/get_posts?page=1&limit=50');
+        const reponse = await fetch('https://psychodomie.onrender.com/get_posts?page=1&limit=50');
         const posts = await reponse.json();
         const shufflepost = shuffle(posts);
 
@@ -46,7 +46,7 @@ async function featured(){
     try{
         const fpost = document.createElement('div');
         fpost.classList.add('about');
-        const res = await fetch("http://127.0.0.1:5000/featured_post");
+        const res = await fetch("https://psychodomie.onrender.com/featured_post");
         const featured = await res.json();
         fpost.innerHTML=`
         <div class="featured-info">
@@ -108,7 +108,7 @@ let posts = 10;
 
 async function loadPost() {
     try {
-        const reponse = await fetch('http://127.0.0.1:5000/get_posts?page=1&limit=50');
+        const reponse = await fetch('https://psychodomie.onrender.com/get_posts?page=1&limit=50');
         a = await reponse.json();
 
         display(posts);

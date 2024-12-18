@@ -2,7 +2,7 @@ function loadpost(){
     const url = new URLSearchParams(window.location.search);
     const slug = url.get('id');
     if(slug){
-        fetch(`http://127.0.0.1:5000/post?slug=${slug}`)
+        fetch(`https://psychodomie.onrender.com/post?slug=${slug}`)
         .then(response => response.json())
         .then(post =>{
             if(post &&post.title){
