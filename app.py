@@ -1,7 +1,6 @@
 from flask import Flask,render_template, jsonify, request,send_from_directory
 from flask_cors import CORS
 import requests,os,random
-
 app = Flask(__name__)
 CORS(app)
 app.static_folder = 'static'
@@ -79,7 +78,7 @@ def featured():
     query = """
     
 query MyQuery {
-        posts(where: {featuredPost: true}, first: 10) {
+        posts(where: {featuredPost: true}, first: 20) {
             title
             categories {
                 name

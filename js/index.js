@@ -4,7 +4,7 @@ async function loadpost(){
     try{
         const reponse = await fetch('http://127.0.0.1:5000/get_posts?page=1&limit=50');
         const posts = await reponse.json();
-        const shufflepost = shuffle(postdisplay);
+        const shufflepost = shuffle(posts);
 
         postcontainer.innerHTML ='';
         shufflepost.forEach((posts,index) =>{
